@@ -14,20 +14,20 @@ canvas{
     color: white;
     text-align: center;
     font-size: 80px;
-    background-color: #F86624;
+    background-color: black;
     height: 120px;
     border-radius: 15px;
 }
 
 .Game-Controls-Title{
-    background-color: #2274A5;
+    background-color: black;
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
 .Game-Description-Title{
-    background-color: #2274A5;
+    background-color: black;
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 0;
@@ -54,7 +54,7 @@ canvas{
 }
 
 p{
-    color: #0B0A07;
+    color: white;
 }
 
 body{
@@ -65,13 +65,8 @@ body{
 
 html, body{
     height:100%;
-    background-color: #F9C80E !important;
+    background-color: grey !important;
     margin: 0;
 }
 
 
-footer{
-    text-align: center;
-    color: white;
-    background-color: #F86624;
-}
