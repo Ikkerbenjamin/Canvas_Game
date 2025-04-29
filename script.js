@@ -1,3 +1,12 @@
+const startButton = document.getElementById("start-button");
+const welcomeScreen = document.getElementById("welcome-screen");
+const gameContainer = document.getElementById("game-container");
+
+startButton.addEventListener("click", function() {
+    welcomeScreen.style.display = "none"; // Elrejti a belépő oldalt
+    gameContainer.style.display = "flex"; // Megjeleníti a játékot
+    resetGame(); // Játék inicializálása
+});
 Array.prototype.last = function () {
   return this[this.length - 1];
 };

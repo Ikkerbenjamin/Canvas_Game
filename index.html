@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Szökkenő betyár</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szökkenő betyár</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div class="container">
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="start-button" id="start-button">Indítás</div>
+    </div>
+    <div class="container" id="game-container" style="display: none;">
         <div id="score"></div>
         <canvas id="game" width="375" height="375"></canvas>
         <div id="introduction">Nyomd le a bal egérgombot, hogy növekedjen a pálca</div>
         <div id="perfect">DUPLA PONT</div>
         <button id="restart">Újrakezdés</button>
-      </div>
-      
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
