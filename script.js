@@ -100,10 +100,7 @@ function generateTree() {
   const lastTree = trees[trees.length - 1];
   let furthestX = lastTree ? lastTree.x : 0;
 
-  const x =
-      furthestX +
-      minimumGap +
-      Math.floor(Math.random() * (maximumGap - minimumGap));
+  const x = furthestX + minimumGap + Math.floor(Math.random() * (maximumGap - minimumGap));
 
   const treeColors = ["#6D8821", "#8FAC34", "#98B333"];
   const color = treeColors[Math.floor(Math.random() * 3)];
